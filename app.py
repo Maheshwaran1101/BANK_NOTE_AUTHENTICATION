@@ -29,3 +29,12 @@ def predict_banknote(data:Banknote):   #from Banknote import Banknote is used to
 
 if __name__ == '__main__':
     uvicorn.run(app, host='127.0.0.1', port=5001)
+    
+    
+"""
+in output
+
+0 = Fake
+1 = Real
+
+"""
